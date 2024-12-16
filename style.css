@@ -1,0 +1,48 @@
+section div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: 1px solid black;
+    
+}
+section div:nth-child(odd){background-color:yellow;
+}
+
+section div:nth-of-type(even){
+    
+    top: 20px;
+    position: relative;}
+ 
+ section2 div{display: inline-block;
+    background-color: red;
+width: 80px;
+height: 30px;
+border: 1px solid black;
+text-align: center;
+color: white;
+
+}
+section2 :nth-child(even){
+display: none;
+}
+
+section3 div{
+    background-color: blue;
+
+    width: 70px;
+    height: 70px;
+ display: inline-block
+}
+section4 div{background-color: green;}
+
+section5 div{width: 40px;
+height: 40px;
+display: inline-block;
+background-color: aliceblue;}
+/* section5 div:nth-last-of-type(n+6){background-color: orange;}*/
+/* section5 div:nth-last-of-type(-n+5){background-color: orange; /*}
+/* section5 div:nth-last-of-type(4+4){background-color: orange;}*/
+/*section5 div:nth-last-of-type(n+7){background-color: orange;}*/
+section5 div:nth-last-child(3){background-color: orange;}
+
